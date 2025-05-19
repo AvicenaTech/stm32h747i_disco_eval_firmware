@@ -116,8 +116,8 @@
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.1046308288" name="Board" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" useByScannerDiscovery="false" value="STM32H747I-DISCO" valueType="string"/>
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.545988754" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.6 || Release || false || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || STM32H747I-DISCO || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Core/Inc | ../../Drivers/STM32H7xx_HAL_Driver/Inc | ../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy | ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include | ../../Drivers/CMSIS/Include | ../USB_DEVICE/App | ../USB_DEVICE/Target | ../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc | ../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc ||  ||  || CORE_CM7 | USE_HAL_DRIVER | STM32H747xx | USE_PWR_DIRECT_SMPS_SUPPLY ||  || Core/Src | Drivers | Core/Startup | Middlewares | USB_DEVICE | Common ||  ||  || ${workspace_loc:/${ProjName}/STM32H747XIHX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None ||  ||  || " valueType="string"/>
 							<option id="com.st.stm32cube.ide.mcu.debug.option.cpuclock.684232780" name="Cpu clock frequence" superClass="com.st.stm32cube.ide.mcu.debug.option.cpuclock" useByScannerDiscovery="false" value="64" valueType="string"/>
-							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoprintffloat.1976438422" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoprintffloat" value="true" valueType="boolean"/>
-							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoscanffloat.1647604820" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoscanffloat" value="true" valueType="boolean"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoprintffloat.1976438422" name="Use float with printf from newlib-nano (-u _printf_float)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoprintffloat" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoscanffloat.1647604820" name="Use float with scanf from newlib-nano (-u _scanf_float)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoscanffloat" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.993328441" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
 							<builder buildPath="${workspace_loc:/Disco_Eval_Firmware_CM7}/Release" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.1308716203" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.1404417379" name="MCU/MPU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
@@ -139,10 +139,10 @@
 									<listOptionValue builtIn="false" value="../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Include"/>
-									<listOptionValue builtIn="false" value="../USB_DEVICE/App"/>
 									<listOptionValue builtIn="false" value="../USB_DEVICE/Target"/>
 									<listOptionValue builtIn="false" value="../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 									<listOptionValue builtIn="false" value="../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Disco_Eval_Firmware_CM7/USB_DEVICE/App}&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.95606751" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
