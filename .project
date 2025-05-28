@@ -3,6 +3,8 @@
 	<name>Disco_Eval_Firmware</name>
 	<comment></comment>
 	<projects>
+		<project>Disco_Eval_Firmware_CM4</project>
+		<project>Disco_Eval_Firmware_CM7</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
